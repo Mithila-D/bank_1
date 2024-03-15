@@ -1,0 +1,87 @@
+body
+{
+    font-size: 20px;
+}
+#navbar 
+{
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+    background-color: black; 
+    padding: 10px 0; 
+
+}
+
+#navbar a 
+{
+    color: white; 
+    text-decoration: none; 
+    margin: 0 10px; 
+}
+
+#navbar a:hover
+ {
+    background-color: black; 
+}
+#heading
+{
+    margin-top: 60px;
+    text-align: center;
+}
+#form_in_me
+{
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+#fill_login_dets 
+{
+    text-align: center;
+    border: 1px solid black;
+    width: 400px;
+    padding-bottom: 60px;
+    padding-top: 80px;
+    box-shadow: 0px 0px 40px rgba(3, 3, 3, 0.5);
+    border-radius: 10px;
+
+}
+#two_buttons_in_me
+{
+    color: black;
+      
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+
+}
+
+#forgot_pwd
+{
+    background-color: rgb(151, 224, 241);  
+    box-shadow: 0px 0px 2px rgba(3, 3, 3, 0.5);  
+    border-radius: 5px;  
+}
+#create_acc
+{
+    background-color: rgb(151, 224, 241);   
+    box-shadow: 0px 0px 2px rgba(3, 3, 3, 0.5);    
+    margin-left: 10px; 
+    border-radius: 5px;  
+}
+#submit
+{
+    background-color: rgb(6, 198, 60);    
+    border-radius: 5px;  
+}
+
+#footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
